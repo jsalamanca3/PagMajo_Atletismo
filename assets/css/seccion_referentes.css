@@ -1,0 +1,41 @@
+
+.h2Referentes {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: var(--font-size--title-h2);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-title);
+    color: var(--color-title);
+}
+.h3Bibliografias {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 5%;
+    text-align: start;
+    font-size: var(--font-size--title-h3);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-title);
+    color: var(--color-title);
+}
+.divCaja_referentes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card-img {
+    height: 160px;
+}
+.card-title {
+    font-size: var(--font-size--title-h5);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-title);
+    color: var(--color-title);
+}
+.card-text {
+    font-size: var(--font-size--letter-small);
+    font-family: var(--font-letter);
+    font-weight: var(--font-weight-letter-regular);
+    color: var(--color-letter);
+}

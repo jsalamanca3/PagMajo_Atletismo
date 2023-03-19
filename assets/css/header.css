@@ -1,0 +1,72 @@
+.divContainer--header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    background: url(/assets/Image/pexels-andrea-piacquadio-3763869\ \(1\).jpg);
+    background-size: cover;
+}
+.divCaja--Logo {
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    text-align: center;
+}
+.imgLogo--header {
+    width: 50%;
+    height: auto;
+}
+.hTitle--header {
+    padding: 0 10% 0 10%;
+    font-size: var( --font-size--title-h1);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-title-large);
+    color: var(--color-title--principal);
+    text-shadow: #05050573 -2px -9px 20px;
+}
+/* nav */
+.divCaja--nav {
+    width: 80%;
+    height: auto;
+}
+.ulLinks--navLi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #000000a6;
+    border-radius: 20px;
+    height: 40px;
+}
+.liLinks--nav {
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: var(--font-size--letter-medium);
+    font-family: var(--font-letter);
+    font-weight: var(--font-weight-letter);
+    color: var(--color-letter);
+}
+.aLi--navUl {
+    color: #a9bcd0;
+}
+.aLi--navUl:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px){
+    .hTitle--header {
+        padding: 0 2% 0 2%;
+        font-size: var( --font-size--title-h2);
+    }
+    .divCaja--nav {
+    display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .hTitle--header {
+        margin-top: 20px;
+        padding: 0 2% 0 2%;
+        font-size: var( --font-size--title-h4);
+    }
+}
+

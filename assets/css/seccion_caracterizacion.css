@@ -1,0 +1,121 @@
+
+.h2Tittle-historia,
+.h2Tittle-estructura {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: var(--font-size--title-h2);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-title);
+    color: var(--color-title);
+}
+.divCaja-Geneally {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.div-geneally {
+    border: 3px solid #666;
+}
+.pTittle-nacionalidad,
+.pTittle-internacional {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 5%;
+    text-align: start;
+    font-size: var(--font-size--title-h3);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-title);
+    color: var(--color-title);
+}
+.divCaja-img-nacio,
+.divCaja-img-Inter,
+.divCaja-taxonomia {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.pTittle-taxonomia {
+    margin-top: 50px;
+    padding-left: 5%;
+    text-align: start;
+    font-size: var(--font-size--letter-medium);
+    font-family: var(--font-letter);
+    font-weight: var(--font-weight-letter-regular);
+    color: var(--color-letter);
+}
+
+.img-nacionalidad,
+.img-internacional {
+    width: 80%;
+    height: auto;
+}
+.ul__taxonomia {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: var(--font-size--letter);
+    font-family: var(--font-letter);
+    font-weight: var(--font-weight-letter-regular);
+    color: var(--color-letter);
+}
+.margin-top {
+    margin-top: 80px;
+}
+.btn-block,
+.h5__cardTitle,
+.a__bs {
+    font-size: var(--font-size--letter);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-title);
+    color: var(--color-letter);
+}
+.hSalida {
+    margin: 0;
+}
+.h4__nacionalidad {
+    margin-top: 15px;
+    padding-left: 5%;
+    font-size: var(--font-size--title-h5);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-title);
+    color: var(--color-title);
+}
+.pCaracterizacion_posicion {
+    margin-top: 10px;
+    padding-left: 5%;
+    text-align: start;
+    font-size: var(--font-size--letter);
+    font-family: var(--font-letter);
+    font-weight: var(--font-weight-letter-regular);
+    color: var(--color-letter);
+}
+.h4__apoyo {
+    font-size: var(--font-size--title-h4);
+}
+@media screen and (max-width: 600px){
+    .h2Tittle-historia,
+    .h2Tittle-estructura {
+        font-size: var(--font-size--title-h4);
+    }
+    .pTittle-nacionalidad,
+    .pTittle-internacional,
+    .pTittle-taxonomia,
+    .ul__taxonomia,
+    .pCaracterizacion_posicion,
+    .a__bs,
+    .pCaracterizacion_posicion {
+        font-size: var(--font-size--letter-small);
+    }
+    iframe {
+        height: 340px;
+    }
+    .hSalida {
+        font-size: var(--font-size--letter-medium)
+
+    }
+    .h4__apoyo {
+        font-size: var(--font-size--title-h5);
+    }
+}

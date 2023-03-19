@@ -1,0 +1,44 @@
+:root {
+    --font-title: 'Kanit', sans-serif;
+    --font-letter: 'Fira Sans', sans-serif;
+
+    --font-weight-title-regular: 300;
+    --font-weight-title: 500;
+    --font-weight-title-large: 700;
+    --font-weight-letter-regular: 300;
+    --font-weight-letter: 400;
+    --font-weight-letter-large: 700;
+
+    --color-body: #F6F0ED;
+    --color-header: #28536b;
+    --color-footer: #28536b;
+    --color-sections: #d2d6ef;
+    --color-letter: #727072;
+    --color-title: #4b5358;
+    --color-btn: #f46036;
+    --color-li: #104547;
+    --color-background: ;
+    --color-title--principal: #ffffff9e;
+
+    --font-size--letter-small: 1.4rem;
+    --font-size--letter: 1.8rem;
+    --font-size--letter-medium: 2.4rem;
+    --font-size--letter-large: 3.4rem;
+    --font-size--title-h1: 7.2rem;
+    --font-size--title-h2: 4.8rem;
+    --font-size--title-h3: 3.8rem;
+    --font-size--title-h4: 2.8rem;
+    --font-size--title-h5: 1.8rem;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    height: 0px;
+}

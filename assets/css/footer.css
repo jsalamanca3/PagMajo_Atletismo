@@ -1,0 +1,35 @@
+footer {
+    margin-top: 40px;
+    background: var(--color-footer);
+}
+.divFooter {
+    width: 100%;
+    height: auto;
+}
+.divCajaImg-footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.imgFooter {
+    width: 30%;
+    height: auto;
+}
+.divCajaP-footer {
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.pFooter {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: var(--font-letter);
+    font-weight: var(--font-weight-letter-regular);
+    color: var(--color-body);
+}
+@media screen and (max-width: 600px){
+    .pFooter {
+        font-size: 1.1rem;
+    }
+}

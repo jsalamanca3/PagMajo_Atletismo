@@ -1,0 +1,62 @@
+.divSection-Tinteligencias {
+    width: 100%;
+    height: auto;
+    padding: 0 5% 0 5%;
+}
+.pInteligencias-section {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    font-size: var(--font-size--letter-medium);
+    font-family: var(--font-letterle);
+    font-weight: var(--font-weight-letter-regular);
+    color: var(--color-letter);
+    text-align: center;
+}
+.divContainerImg-inteligencias {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    width: 100%;
+    height: auto;
+}
+.imgInteligencias {
+    width: 100%;
+    height: 100%;
+}
+.h2Title--inteligencias {
+    margin-top: 50px;
+    text-align: center;
+    font-size: var(--font-size--title-h2);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-title);
+    color: var(--color-title);
+}
+.pInteligencias-sectionTipos {
+    margin-top: 10px;
+}
+.card-title {
+    font-size: var(--font-size--title-h4);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-title);
+    color: var(--color-title);
+}
+.card-text {
+    font-size: var(--font-size--letter-small);
+    font-family: var(--font-letterle);
+    font-weight: var(--font-weight-letter-regular);
+    color: var(--color-letter);
+}
+.card-img {
+    height: 250px;
+}
+@media screen and (max-width: 600px){
+    .h2Title--inteligencias {
+        font-size: var(--font-size--title-h4);
+    }
+    .pInteligencias-section {
+        font-size: var(--font-size--letter-small);
+    }
+    .card-title {
+        font-size: var(--font-size--title-h5);
+    }
+}
