@@ -1,4 +1,3 @@
-
 .h2Referentes {
     margin-top: 50px;
     margin-bottom: 40px;
@@ -47,4 +46,16 @@
     font-family: var(--font-letter);
     font-weight: var(--font-weight-letter-regular);
     color: var(--color-letter);
+}
+.p__bibliografias a {
+    text-decoration: none;
+    color: var(--color-letter);
+}
+
+@media screen and (max-width: 800px) {
+    .p__bibliografias {
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 1.4rem;
+    }
 }
