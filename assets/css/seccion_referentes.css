@@ -39,3 +39,12 @@
     font-weight: var(--font-weight-letter-regular);
     color: var(--color-letter);
 }
+.p__bibliografias {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 2rem;
+    text-align: justify;
+    font-family: var(--font-letter);
+    font-weight: var(--font-weight-letter-regular);
+    color: var(--color-letter);
+}
