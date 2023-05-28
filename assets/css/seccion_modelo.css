@@ -5,7 +5,8 @@
     height: auto;
     align-items: center;
 }
-.h2Modelo_t {
+.h2Modelo_t,
+.h2Modelo_c {
     margin: 50px 0 50px 0;
     text-align: center;
     font-size: var(--font-size--title-h2);
@@ -13,7 +14,8 @@
     font-family: var(--font-title);
     font-weight: var(--font-weight-title-large);
 }
-.pModelo_p {
+.pModelo_p,
+.pModelo_c {
     padding: 0 5% 0 5%;
     margin: 30px 0 60px 0;
     text-align: center;
@@ -109,6 +111,22 @@ hr {
 .pParrafo-especializacion {
     margin-bottom: 20px;
     padding: 0 5% 0 5%;
+}
+.img-iniciacion_cientifico {
+    width: 50%;
+    height: 400px;
+    background: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(47, 47, 71);
+}
+.img-iniciacion_c {
+    width: 100%;
+    height: auto;
+}
+.img-iniciacion_c-img {
+    width: 100%;
+    height: 250px;
+    margin-top: 25px;
 }
 @media screen and (max-width: 740px) {
     .divEvaluacion {
