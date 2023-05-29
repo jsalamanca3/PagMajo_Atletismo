@@ -92,6 +92,7 @@ hr {
     font-family: var(--font-letter);
     font-weight: var(--font-weight-letter);
     color: var(--color-letter);
+    margin-bottom: 20px ;
 }
 .pParrafo-iniciacion {
     margin-bottom: 10px;
@@ -127,6 +128,32 @@ hr {
     width: 100%;
     height: 250px;
     margin-top: 25px;
+}
+.pParrafo_c {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.container_img_robinson {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.img-robinson {
+    border: 6px solid #242323;
+}
+
+#pParrafo-iniciacion_c {
+    font-weight: var(--font-weight-letter) !important;
+    margin-bottom: 20px;
+}
+table {
+    font-size: var(--font-size--letter-small);
+    margin-bottom: 25px;
+}
+th, td {
+    padding-left: 5px;
 }
 @media screen and (max-width: 740px) {
     .divEvaluacion {
